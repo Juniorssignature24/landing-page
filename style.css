@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 11, 1) 0%,
+    #00d4ff 100%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+header {
+  height: 15vh;
+  width: screen;
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-div {
+  width: 85vw;
+  height: inherit;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-between;
+}
+.logo-nav {
+  width: 60vw;
+  height: inherit;
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 8vw;
+  height: inherit;
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sign-in {
+  width: 15vw;
+  height: inherit;
+  /* border: 1px solid #fa0808; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav {
+  width: 50vw;
+  height: inherit;
+  /* border: 1px solid gold; */
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+header .bi {
+  color: #fff;
+  font-size: 25px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+a{
+  text-decoration: none;
+}
+.btn-1{
+  border: 1px solid #fff;
+  background-color: transparent;
+  display: inline-block;
+  padding: 10px;
+  width: 100px;
+  border-radius: 30px;
+  position: static;
+
+}
+.btn-2{
+  border: none;
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  width: 100px;
+  border-radius: 30px;
+  position: relative;
+  color: #000;
+}
+main{
+  width: screen;
+  height: 85vh;
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-div{
+  width: 85vw;
+  height: inherit;
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
